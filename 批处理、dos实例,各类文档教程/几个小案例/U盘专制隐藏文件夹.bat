@@ -1,1 +1,0 @@
-attrib -s -h -r -a /s /d 

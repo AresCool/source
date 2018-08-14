@@ -1,0 +1,1 @@
+dir/s/a >list.txt
