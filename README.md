@@ -2,102 +2,103 @@
 **我们将会在这给大家提供我们开发者团队所拥有的相关技术资料。**
 
 # 大前端
+
 ** [大前端相关资源](大前端/前段.md)**
- 
+
 0.网页平面设计教程视频-html+css  
 >链接:https://yun.baidu.com/s/1boPQSe 密码:i3or
-    
+
 1.ps 
 >链接: https://pan.baidu.com/s/1mjYbcJA密码：pqdt 
-   
+
 2.HTML5+CSS3从入门到精通.iso 
 >链接:
 https://pan.baidu.com/s/1cUHz3o
 密码：gdyw
-    
+
 3.Javascript视频教程 
 >链接: https://pan.baidu.com/s/1i6eC5YP
 密码：ku5k  
-  
+
 4.Jquery视频教程 
 >链接：https://pan.baidu.com/s/17DbNSnR3q5OGSjdw9tvCEA 
 密码：twcp
-    
+
 5.Bootstrap视频教程 
 >链接: https://pan.baidu.com/s/1jKb2UDS
 密码：wr8c
-    
+
 6.Vue.js 
 >链接: 
 https://pan.baidu.com/s/1slYqBa1
 密码：75xd
-    
+
 7.Smarty模板引擎视频教程 
 >链接: https://pan.baidu.com/s/1smewom5
 密码：v8vp  
-  
+
 8.Nodejs 
 >链接: https://pan.baidu.com/s/1sm509GD
 密码：fux1
-    
+
 9.Mysql视频教程 
 >链接: https://pan.baidu.com/s/1kVTdjcr
 密码：e37d
-    
+
 10.PHP视频教程 
 >链接: https://pan.baidu.com/s/1kWE0qZP
 密码：xc4q
-    
+
 11.oracle视频教程 
 >链接: https://pan.baidu.com/s/1i6jwpal
 密码：hk6p 
-   
+
 12.nginx视频教程 
 >链接: https://pan.baidu.com/s/1nxccLg1
 密码：x2q8
-    
+
 13.ajax 
 >链接:
  https://pan.baidu.com/s/1dHctdXv
 密码：jfwf
-    
+
 14.mongodb视频教程 
 >链接: https://pan.baidu.com/s/1c3EE7U4
 密码：7v8b
-    
+
 15.Angular.js
 >链接: https://pan.baidu.com/s/1jJhYrEu
 密码：ddci
-    
+
 16.React
 >链接: 
 https://pan.baidu.com/s/1nwnrQxb
 密码：942g
-    
+
 17.dedeCMS织梦视频 
 >链接: https://pan.baidu.com/s/1bpQBCbP
 密码：ikns
-    
+
 18.ThinkPHP视频教程 
 >链接: https://pan.baidu.com/s/1ggiKvYV
 密码：7p5h
-    
+
 19.案例和总结 
 >链接: https://pan.baidu.com/s/1eTSNB5C
 密码：5rx7
-    
+
 20.天猫商城购物车实战 
 >链接: https://pan.baidu.com/s/1smVjb7v
 密码：cu4c
-    
+
 21.Java学科
 >链接：https://pan.baidu.com/s/1DtnDNv1p9ENZETLqIuKytw
  密码：82lk
-     
+
 22.Python
 >链接：https://pan.baidu.com/s/1scBXSLdiTs9SBixdkykflw 
 密码：ck51
-   
+
 23.nodejs微信开发
 >链接：https://pan.baidu.com/s/15tYBZ2yVz9aPO57LKqt7Mg 
 密码：jrwb  
@@ -109,27 +110,32 @@ https://pan.baidu.com/s/1nwnrQxb
 ## PHP
 - [PHP技术教程相关](php/README.md)
 - [PHP全套视频教程(2016年)](https://yun.baidu.com/s/1kTSTwc3)
-	> 链接:`https://yun.baidu.com/s/1kTSTwc3` 密码:`9kpp`
+
+  > 链接:`https://yun.baidu.com/s/1kTSTwc3` 密码:`9kpp`
 - [PHP快速入门视频教程(2015年)](https://yun.baidu.com/s/1hrpZFk4)
-	> 链接:`https://yun.baidu.com/s/1hrpZFk4` 密码:`rgk6`
+
+  > 链接:`https://yun.baidu.com/s/1hrpZFk4` 密码:`rgk6`
 
 ## Java
 - [Java学习相关电子书籍](https://yun.baidu.com/s/19fPTIM9dBpGBLGrqLLp5kg)
-	> 链接:`https://yun.baidu.com/s/19fPTIM9dBpGBLGrqLLp5kg` 密码:`664c`
+
+  > 链接:`https://yun.baidu.com/s/19fPTIM9dBpGBLGrqLLp5kg` 密码:`664c`
 - [历经5年锤练--史上最适合初学者入门的Java基础视频)](https://yun.baidu.com/s/1kTBXMJ1)
-	> 链接:`https://yun.baidu.com/s/1kTBXMJ1` 密码:`erz9`
+
+  > 链接:`https://yun.baidu.com/s/1kTBXMJ1` 密码:`erz9`
 
 # 服务器Linux
 - [Linux相关电子书](https://pan.baidu.com/s/1NVBW5ZYcckY9_qDBJveGTA)
-	> 链接：`https://pan.baidu.com/s/1NVBW5ZYcckY9_qDBJveGTA` 密码：`1f3q`
+
+  > 链接：`https://pan.baidu.com/s/1NVBW5ZYcckY9_qDBJveGTA` 密码：`1f3q`
 
 # 数据库MySQL
 - [MySql相关电子书](https://pan.baidu.com/s/1ZUHSKJULWPqGYzP1f6fqBw)
-	> 链接：`https://pan.baidu.com/s/1ZUHSKJULWPqGYzP1f6fqBw` 密码：`sfpx`
-- [MySql相关学习视频]()
-	> 链接：`https://pan.baidu.com/s/1YuL4yARPf2eJ9vDhrgPgnA` 密码：`1sgu`
 
-  
+  > 链接：`https://pan.baidu.com/s/1ZUHSKJULWPqGYzP1f6fqBw` 密码：`sfpx`
+- [MySql相关学习视频]()
+  > 链接：`https://pan.baidu.com/s/1YuL4yARPf2eJ9vDhrgPgnA` 密码：`1sgu`
+
 
 Java进阶   
 >链接：[YPSuperKey Unlockedhttps://pan.baidu.com/s/1Qw7h216SxtH6TwuUp_Xemw](https://pan.baidu.com/s/1Qw7h216SxtH6TwuUp_Xemw "java进阶") 密码：v9si  
@@ -214,6 +220,59 @@ Docker进阶
 
 项目实战第七阶段
 >链接：[https://pan.baidu.com/s/1N2lVbwYEPP6_tO0rxvJJMQ](https://pan.baidu.com/s/1N2lVbwYEPP6_tO0rxvJJMQ) 密码：nclx  
+
+
+
+## 软件教程
+
+1、犀牛软件教程链接: https://pan.baidu.com/s/1jHWfc6E密码: na9r
+2、SU模型库链接: https://pan.baidu.com/s/1pKU8Vvt密码: pye8
+3、sketch软件链接: https://pan.baidu.com/s/1c4RrcU密码: hxnt
+4、C4D软件链接1: https://pan.baidu.com/s/1c2o8mu0密码: at53
+链接2：https://pan.baidu.com/s/1qZpoKcW密码：2ysv
+5、Adobe cc 2018链接: https://pan.baidu.com/s/1pL1datX密码: r1k4
+6、PS链接: https://pan.baidu.com/s/1miKLVOs密码: fcp1
+7、CAD链接: https://pan.baidu.com/s/1nviQcM9密码: 9tit
+CAD新链接：https://pan.baidu.com/s/1c4fcYTM密码：d2p9
+8、office资源大礼包
+软件链接:https://pan.baidu.com/s/1_BCuEeR7UZ1ZdqLsSj30XA 密码:bwe1
+9、DW链接: https://pan.baidu.com/s/1sl1EOS9密码: 9nip
+10、AE+PR链接：https://pan.baidu.com/s/1i6YiaHJ密码：y0hq
+11、网页设计（见资源失效群）
+12、Prezi链接: https://pan.baidu.com/s/1i53rhwL密码: wa67
+13、matlab资源
+14、CDR链接:https://pan.baidu.com/s/1TPcYhy3JR0Z7HC8tZx-9mg 密码:fr7y
+15、AI链接: https://pan.baidu.com/s/1bUt6Ei密码: akuh
+16、EXCEL链接: https://pan.baidu.com/s/1i5w51ZZ密码: 5fzc
+17、3DMAX链接: https://pan.baidu.com/s/1miorSCS密码: s91k
+18、思维导图链接：https://pan.baidu.com/s/1dGvaEXF密码：0v5c
+19、
+20、Axure链接: https://pan.baidu.com/s/1c1ZFfQ4密码: efeb
+21、会声会影X10链接：https://pan.baidu.com/s/1qXXUX44密码：89py
+22、UI设计链接: https://pan.baidu.com/s/1i7pIWgl密码: 2th2
+23、图表制作软件tableau链接：https://pan.baidu.com/s/1hsy9AAS密码：6c8c
+24、
+25、maya软件教程链接：https://pan.baidu.com/s/1nvtFROd密码：mlqo
+26、PPT动画教程链接：https://pan.baidu.com/s/1eRIG0H8密码：a2a7
+27、3DMAX
+软件https://pan.baidu.com/s/1gGk8X40tT-5R0KLT4Jko4w密码: quyk
+【旧】教程链接1: https://pan.baidu.com/s/1miorSCS密码: s91k
+3DMAX(新)链接：https://pan.baidu.com/s/1brk49Kb密码：qymk
+28、Excel
+【旧】链接1：https://pan.baidu.com/s/1dFhLwi9密码：g068
+【新】链接：https://pan.baidu.com/s/1i6A1OEx密码：y9ii
+29、Lr教程链接:https://pan.baidu.com/s/1dGP19dB密码: 4js3
+30、影视软件合集链接: https://pan.baidu.com/s/1ggr7Yev密码: apzz
+31、Q版人像设计链接：https://pan.baidu.com/s/1bqrGln5密码：mzmp
+32、影视拍摄视频教程链接：https://pan.baidu.com/s/1ggDSBRl密码：ifhz
+33、短视频制作链接：https://pan.baidu.com/s/134R7kdwODv0zltEZn2DwhA密码：kks6
+34、海报资源链接: https://pan.baidu.com/s/1htIAMlI密码: y65x
+35、FCPX资源链接：https://pan.baidu.com/s/1jKcjqvk密码：5ce7
+36、达芬奇调色链接：https://pan.baidu.com/s/1eTkjp78密码：t79e
+37、project链接：https://pan.baidu.com/s/1b_nVF1LRCUNVHNNOJcAtYw 密码：1nkm
+38、edius链接：https://pan.baidu.com/s/1o9qFO0a 密码：kfva
+
+
 
 
 
