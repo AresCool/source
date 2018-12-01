@@ -70,9 +70,7 @@ https://pan.baidu.com/s/1cUHz3o
 密码：wr8c
 
 6.Vue.js 
->链接: 
-https://pan.baidu.com/s/1slYqBa1
-密码：75xd
+>
 
 7.Smarty模板引擎视频教程 
 >链接: https://pan.baidu.com/s/1smewom5
