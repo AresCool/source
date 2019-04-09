@@ -1,0 +1,6 @@
+﻿
+vuejs/angularjs写的页面刷新都会闪{{}}的解决方法
+
+1.angular加ng-bind，但是每个都加都很麻烦  vue加v-text/v-bind
+
+2.加ng-cloak/v-cloak

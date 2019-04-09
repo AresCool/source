@@ -1,0 +1,28 @@
+1、安装phonegap
+   1)、安装桌面版的phonegap软件
+   2)、通过脚手架的方式安装：npm  install -g phonegap
+2、检验是否安装成功
+	phonegap -v 
+	cordova -v
+	
+3、如何创建phonegap项目
+	命令行输入：phonegap create mytest  “cn.com.hzitxx.mytest”
+	
+4、把www里的web项目调试开发好
+	
+5、如何android或ios打包
+   	1)、生成android或者ios框架
+	phonegap run android或者ios 
+	
+	自动把www下所有文件 复制至 项目\platforms\android\assets\www
+	
+6、导入至eclipse打包android 的apk(如果是苹果系统，导入到 xcode 打包成 ipa )	
+    	1)、创建一个已经存在的android项目，输入phonegap生成的android框架地址（...\mytest\platforms）
+	2)、制作签名
+	3)、生成apk包
+
+
+
+	
+	
+	

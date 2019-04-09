@@ -1,0 +1,24 @@
+1.requirejs是一个JavaScript文件和模块加载器。requireJS允许你把你的javascript代码独立成文件和模块，同时管理每个模块间的依赖关系。RequireJS的目标是鼓励代码的模块化，它使用了不同于传统<script>标签的脚本加载步骤。使用RequireJS加载模块化脚本将提高代码的加载速度和质量
+2.RequireJS是一个非常小巧的JavaScript模块载入框架，是AMD规范最好的实现者之一
+3.requirejs具有如下优点：
+	。防止js加载阻塞页面渲染
+	。使用程序调用的方式加载js，防出现如下丑陋的场景
+		<script type="text/javascript" src="a.js"></script>
+		<script type="text/javascript" src="b.js"></script>
+
+requirejs插件：async.js  引用地图的插件
+      	       text.js  模块插件
+
+遵循common.js的标准（nodejs），文件即模块
+AMD（异步模块定义）的一种框架
+做项目组织管理，实模块化开发
+依赖前置
+按需求加载，局部刷新
+使用方式：在入口文件index.html 引入requirejs文件，指定data-main入口文件
+主要配置属性：
+baseUrl
+shim：requery.js加载的模块必须是 按照AMD规范、用define()函数定义的模块，由于很多库不符合该规范，故requeryJS提供了 shim 配置属性来做到兼容
+exports：输出变量名，外部模块调用时该模块的名称
+deps：该模块的依赖模块
+paths：此时如果加载多个模块的话，就会发送多次HTTP请求，为了不影响页面的加载速度，可以在模块部署完毕后，借用require.js的优化工具 ———— r.js，将这多个模块合并到一个文件中，以减少HTTP请求数
+waitSeconds

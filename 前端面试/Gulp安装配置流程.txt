@@ -1,0 +1,18 @@
+﻿1、安装gulp的依赖环境nodejs，npm
+    下载nodejs，并安装 ，测试安装成功 node -v
+    安装淘宝的镜像....
+2、安装gulp的全局环境
+    npm install -g gulp
+3、安装 gulp的开发依赖环境
+    npm install --save-dev gulp
+4、安装 js的压缩插件
+    npm install --save-dev gulp-uglify
+5、安装 css的压缩 插件
+    npm install --save-dev gulp-clean-css
+6、安装js代码检测提示
+    npm install --save-dev gulp-jshint
+7、安装代码合并 的插件
+    npm install --save-dev gulp-concat
+8、安装重命名插件
+    npm install --save-dev gulp-rename
+

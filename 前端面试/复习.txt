@@ -1,0 +1,533 @@
+1.iframe
+2.form属性 method
+	form表单使用的最频繁，需重点复习
+
+3.原型链
+-----------------------------
+
+包含对象的数组去重
+var arr  = [{a:1},{b:2},{c:3},{b:2},{a:1},{d:5}];
+        //去重
+        var obj = {},tempArr=[];
+        for ( var item in arr ){
+            for (var ii in arr[item]){
+
+                obj[ii] = arr[item][ii];
+            }
+        }
+        console.log(obj)
+        for (var oo in obj){
+            var obj2 ={};
+            obj2[oo] = obj[oo];
+            tempArr.push(obj2)
+        }
+        console.log(tempArr)
+
+--------------------------------------------------------
+一，语义化：
+    1、方便开发人员读代码
+    2、便于搜索引擎收录
+   名字更接近页面结构功能
+   header,nav,section,aside,footer,canvas,audio,video,article,lable,
+   input新类型：email,url,date,number,color,month,time,search,
+   新的属性：
+   form novalidate
+   input required  ,autocomplete, autofocus,placeholder , max ,
+   其它元素新属性： contentEditable , hidden ,
+二，多媒体
+   audio:ogg/mp3/mid
+   video:ogg/mp4/webm
+   如果控制条加controls   ,   autoplay
+   <video ...>
+    <embed src="你的flash地址.swf"width="300" height="220"></embed>
+   </video>
+
+三，离线存储:遵循同源策略,除web sql之外，都是键值对形式存储
+    cookie  ：  兼容所有浏览器，但存储容量只有几k , 每次请求接口都带入到头部，设置过期时间
+    可以指定路径
+    function setCookie(key,val,expire,folder,domain){
+        var date = new Date();
+        date.setTime(date.getTime()+exprie*3600*24*1000)
+        document.cookie = key+'='+val+';expires='+date.toGMTString()+';path=/'+folder+';domain='+domain;
+
+    }
+
+
+    以下只技术ie9以上，容量几M
+    sessionStorage:     sessionStorage.setItem(key,val)
+    localStorage  :     localStorage.setItem(key,val)
+    web sql storage:
+
+四、 三维，图形，特效
+    1、svg  ：矢量图，可以无限放大，不失真，采用xml格式
+        raphael.js
+    2、canvas：位图，放大产生锯齿，渲染效率高，通过js去产生图形
+        zrender.js  / fabric.js
+    3、webgl(3d图形)
+        three.js
+
+五、设备通用
+
+六、性能集成
+    服务端
+    postMessage(动态数据)
+    客户端 ： 异步过程
+    var worker = new Worker(远程服务端的js文件);
+    //接受
+    worker.onmessage = function(data){
+        console.log(data)
+    }
+    //终止接受
+    worker.terminate（）
+
+七、连接:websocket
+    var ws = new websocket('ws://地址');
+    socket.io.js插件去实现
+
+
+八、css3
+
+    1、选择器
+        属性选器  [属性=XX] ,[属性*=XX] ,[属性^=XX] ,[属性$=XX]
+        伪类 ：nth-child (index/odd/even)  /   first-child  /last-child
+        nth-of-type(index)
+
+    2、背景，边框
+        box-shadow: 水平 垂直  模糊度  阴影方向  颜色
+
+    3、盒子模型
+        display:flex
+        flex-flow: row / column
+
+    4、文字特效
+
+    5、2d/3d
+        transform :
+        translate(x,y)/translateX/translateY  :位移
+        rotate(60deg)
+        scale(x,y)  /scaleX()   /scaleY()
+        skew(  )
+        matrix( ) 矩阵
+
+       3d:
+       translate(x,y,z)
+       rotate3d()
+
+
+    6、动画
+        过渡transition: transform / all /width /color  2s  ease   delay  times
+
+        关键帧：animation : keyframsName 2s ease  delay times
+        @keyframes keyframsName{
+            0% /from {
+
+            }
+            100% /to {
+
+            }
+        }
+
+
+    7、多列布局
+
+    8、用户界面值 、
+
+------------------------------------------
+DOM结构、节点、
+
+nodeName、
+nodeValue、
+nodeType
+1:元素节点
+2：元素属性
+3：元素文本
+8：注释
+9：document
+DOM节点：
+创建、
+1：createElement
+2: createDocumentFragment
+3: createTextNode
+
+添加、appendChild
+删除、removeChild
+移动、insertBefore
+替换  replaceChild
+复制、clone
+查找、通过遍历
+DOM对象属性 ：id ,class,name ,type,src,href,title,value,checked,selected,disable,readonly,hidden
+Math、 数学运算的对象 random(0,1),floor:向下取整，ceil:向上取整，pow:次方，round:四舍五入，sin,cos,tan,
+Date、 new Date('2017/11/11')
+setTimeout、 只执行一次的延时（时钟），异步机制
+setInterval、只执行多次的延时（时钟），异步机制
+clearTimeout、 清除时钟
+clearInterval、清除时钟
+cookie：小甜饼，作用：存储轻量级键值对类型的数据，存储是小
+会通过请求接口头部带入后端，sessionStorage,localStorage是不会通过请求接口头部带入后端
+1、遵训同源策略：访问的ip+port必须是一样的
+2、可以设置过期时间
+3、可以设置访问的路径
+4、兼容任何浏览器
+function setCookie(key,val,expire){
+    var date= new Date();
+    date.setTime(date.getTime()+ expire*3600*24*1000);
+    document.cookie = key+'='+val+';expries='+date.toGMTString()  ;
+}
+function removeCookie(key){
+    setCookie(key,'',-1);
+}
+
+function getCookie(key){
+    var cookieArr  =document.cookie.split('; ');
+    for (var i=0;i<cookieArr.length;i++){
+        var cookie = cookieArr[i].split('=');
+        if (cookie[0] == key){
+            return cookie[1];
+        }
+    }
+    return '';
+}
+
+String、
+Boolean、
+Number、
+
+字符串和数字之间的转换
+Number('1234')
+String(1234)
+parseInt
+parseFloat
+toFixed保留小数位数
+
+
+BOM、
+window对象、
+window方法
+history、go(-1),back 记录浏览的历史
+location、 href,port,host,reload,pathname,hash,protocol
+navigator、地理位置，电池，设备类型，平台，
+screen、屏宽高，手机横向纵向
+document常用属性和方法
+尺寸：
+client系列、
+offset系列、
+scroll系列、    document.body.scrollTop   document.body.scrollLeft
+鼠标坐标位置    event.pageX  event.pageY  ,clientX, clientY ,
+获取CSS样式值 、
+
+----------------------------------------------
+事件监听、
+前两个是firefox,chrome,
+addEventListener('click',funtion(e){    },false);
+removeEventListener('click',functionName);
+ie低版
+attachEvent('onclick' ,function(e){  });
+detachEvent('onclick',functionName)
+
+阻止冒泡、子元素的事件对象
+addEventListener('click',funtion(e){
+   if (e.stopProgaration){
+        e.stopProgaration()
+   } else {
+        e.cancelBubble = true;
+
+   }
+
+},false);
+
+闭包:产生机制，函数里面调用函数，会导致产生闭包，函数内部的变量未被释放
+function a(){
+    var n = 2;
+    return function(){
+        return n
+    }
+}
+导致内存泄露
+
+原型、prototype
+原型链、
+继承
+function parent(){
+    this.name = 'asdf';
+    this.show = function(){
+        alert('msg')
+    }
+}
+parent.prototype.alert = function(){
+    alert('aaaaa');
+
+}
+
+function son(){
+
+}
+
+son.prototype = new parent();
+
+
+var s  = new son();
+
+s.alert();
+
+
+
+jquery:sizzle选择器：选择器引擎
+选择器、
+$('#id')
+$('.class')
+$('input')
+$('input:eq(1)')
+$(this)
+$('#id .class input')
+$('input[type=checkbox]')
+$('input[type=checkbox]:checked')
+$('input[type=checkbox]:checked:visible')
+
+$('#id').eq(0)
+$('#id').find('span')
+$('#id').parent()
+$('#id').parents()
+$('#id').children()
+$('#id').siblings()
+$('#id').last()
+$('#id').first()
+$('#id').next()
+$('#id').prev()
+$('#id').nextAll()
+$('#id').end() 返回上一层的对象
+$('#id').find('p').eq(0).find('span').eq(0).end()
+$('li').map
+$('li').each
+$('.class').attr('title','aaaa')
+$('.class').attr('name','aaaa')
+$('.class').attr('name')
+$('#id').css('width','200px');
+$('#id').css({width:'10px',height:'20px'...});
+$('#id').html   /  $('#id').text
+$('#id').val   //input的值
+$('#id').addClass    /   $('#id').removeClass   / $('#id').hasClass     / $('#id').empty
+$('#id').toggle
+$('#id').fadeIn    /    $('#id').fadeOut     /
+$('#id').show
+$('#id').hide
+$('#id').slideDown   /$('#id').slideUp
+$('#id').index
+$('#id').animate
+$('#id').bind   /  $('#id').on    /$('#id').off    /$('#id').unBind
+$('#id').append   /  $('#id').insert   /$('#id').after   /$('#id').before   /$('#id').prepend
+
+事件、 click,mouseover,mousedown,mouseup,hover,change,keyup,keydown,blur,focus,
+动画、 $('#id').animate
+样式,
+DOM、
+属性、
+筛选、
+遍历、
+ajax
+$.ajax({
+    url: 'xxx',
+    type: 'post',
+    dataType:  'json',
+    data: {},
+    contentType : '',
+    success: function(data){
+
+    } ,
+    error : function(){
+
+
+    },
+    beforeSend: function(){
+
+    },
+    complete: function(){
+
+    }
+})
+
+
+常用插件
+上传插件：jquery.ajaxuploadfile.js
+图表插件：echarts.js / zrender.js(canvas插件)
+加密插件：aes.js/md5.js(不可逆)/pad-zeropadding.js
+存储插件：store.js
+富编辑器：xheditor.js
+表格插件：bsgrid.js/datatable.js
+字符统计: charcount.js
+图片裁剪:jquery.cropper.min.js
+分页插件：jquery.pagination.js
+时间日历：jquery.timepicker.js
+树型列表：jquery.ztree.min.js / jquery.treeview.js
+预览插件：jquery.uploadPreview.js
+校验插件：jquery.validate.js
+
+------------------------------------------------------
+
+做网页需考虑哪些事件
+
+1、做好适配，兼容性，体验性
+2、界面尽量美观，整洁
+3、注意网页配色
+4、弹窗要居中，要加阴影背景突出弹窗
+5、布局要整齐，避免出现错位
+6、电脑上需安装firefox,ie(多个版本)，safari,chrome,
+    如果有条件可以安装虚拟机（visual box , vmware）
+7、能写的交互尽量要写好
+8、能用jquery,zepto尽量用
+9、开发效率
+
+--------------------------------------------
+
+1、HTML基本结构、
+超文本标志语言，
+Doctype、定义文档解释类型
+xhtml与html区别是什么：xthml要求更严格，
+1）、不能出现标签名大写, 
+2）、禁止标签交叉 <div><p> </div></p>
+3) 、xhtml严格模式， 怪异模式
+
+meta：对文档类型一些配置声明
+<meta name='viewport' ...>
+<meta charset='utf-8' >  //通用编码
+还包指定网页缓存的过期时间
+指定关键字，利于搜索引擎捕捉
+
+title:标题
+
+指定网页图片，必须是ico的图片
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+h1~h6 标题标签
+、p、hr、br、strong、em、b、i
+a、img、
+注释、<!--  --> 里面的代码不执行
+字符实体 &nbsp; &gt;&lt ;
+ul、无序列表
+ol、有序列表
+dl、dt ,dd 自定义列表
+table、表格：border,cellpadding:文字到边距,cellspacing：表格边框的,align:center,collapse:
+td: align:center,
+iframe: 嵌入其它（外部的）网页地址
+
+form、表单容器 action:服务器的地址?aaa=1234 ,method：传送方式, name ,id,novalide
+
+表单元素（input : text|password|button|sumit|reset|file|date|number|email|month|
+required,autocomplete,placeholder,autofocus,disabled,readonly,hidden
+事件：focus,click,blur,keyup,keydown,keypress:按钮按下,change:文本改变
+mouseover,mouseout,mousemove,
+
+select:选择列表，option:value,selected ,multiple
+、textarea、rows,cols
+label、span
+button）
+CSS语法、
+CSS引入方式、
+<link rel='stylesheet' ....>  //先加载
+@import   加载后
+行间，
+基本选择器、CSS优先级:important > 行内（间） > 后代  > id > class> 元素
+字体、font-size,font-family ,font-weight,color, font :'字体 color 大小'
+文本、text-align,color,line-height,text-indent,text-decoration,
+背景、background,background-color,background-image,background-postion,background-repeat
+列表、
+鼠标样式、cursor:pointer,hand,wait
+超链接伪类、a: hover,link,visited,active
+span标签:行内元素
+div标签、块元素
+width、height、
+盒子模型、padding,margin,border,width,height
+border-collapse:间隙去除
+内联inline、块级block、行内块inline-block、display:none,flex,table,
+、visibility、一直存在，只是不显示
+overflow：hidden,scroll
+white-space、text-overflow、word-break、word-wrap
+浮动、float : left ,right ,none
+清除浮动、clear:both
+页面布局、
+:before: content:'',width,height,position
+:after
+定位: position: relactive,absolute,fixed
+、z-index:层高
+opacity、透明，会继承给子组件
+rgba：透明，不会继承给子组件
+
+---------------------------------------------
+
+1、JavaScript简介、
+对象型事件驱动的一种脚本安全性语言（ECMAScript）
+配合html,css一起使用，实现交互功能
+一种解析性言语，不需要做预编译
+2、组成
+ECMAScript语言
+Dom对象：html文档对象
+Bom对象：浏览器文档对象
+3、引入js方式、
+script引进来
+script src引入
+document.write输出在浏览器页面
+数据类型(
+number、
+toFixed,toString
+string、
+charAt:取第几个字符
+indexOf：取索引，未取到就是-1,
+length：取长度,
+substring：取指定索引位置起始和终止的字符串,
+split：以某个或某串字符切割字符串,
+lastIndexOf,取索引，从后往前取，未取到就是-1,
+toUpperCase，toLowerCase：转大小写
+replace:替换字符串
+
+boolean、
+true/false
+
+null、空对象，原型链最终的对象
+undefined ：未定义
+object：new Object()或{}
+array: []或 new Array()
+length:长度
+sort:  排序
+join:  连成字符串
+concat:数组相连
+push：缀加
+pop： 删除最后一个
+splice:删除数组或添加数组
+shift:删除原数组第一项，并返回被删除的值
+unshift:添加到最前面
+slice:截取索引后的值，原数组不变
+reverse:顺序翻转
+forEach:
+var i = [2,3,5,4,3,32,7,7]
+i.forEach(function(val,key){
+    console.log('%s : %s',key,val)
+})
+
+indexOf :查数组里有没存在的值，不存在==-1 ，否则返回>-1的值
+
+
+date：日期    new Date() :getTime ,setTime  , toGMTString
+
+typeof
+
+变量、
+注释：//   ,  /* xxx  */
+运算符：
+算术、 + - * /    ++    --    %(取余)  +=  -=  *=  /=
+赋值、 var abc = 1234 ,   abc = 1234  未加var 会变成全局变量
+
+比较、 >   <    ==   >=  <=   !=  !==    ===
+逻辑、 &&   ||  !  !!
+三目（元）   表达式?成立:不成立
+运算符
+alert、confirm、prompt、console.log、
+程序语句结构（顺序、选择、循环）
+简单if、if-else、多重if、嵌套if、switch
+while、do-while、for、break、continue、二重循环
+
+函数：定义、调用、参数 、返回值
+数组：创建、访问、大小、常用方法、遍历、for-in循环
+元素获取、样式改变、className
+常用事件（点击、得焦、失焦、键盘、鼠标、提交、window事件）、
+事件对象event
+
+----------------------------------------------------

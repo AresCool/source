@@ -1,0 +1,131 @@
+
+1、描述行内元素的特点
+	不能设置width，height，上下margin/padding值 
+
+2、行内块元素（display:inline-block）在IE8以下的兼容性写法
+	div {
+    		display： inline-block；
+    		*zoom： 1；
+    		*display： inline；
+	}
+	*zoom：1作用是 
+		在IE下触发hasLayout
+	*display：inline作用作用是 
+		一旦触发了hasLayout设置display：inline和display：block效果相似。
+
+3、浏览器内核包括哪两部分，并说明其功能
+	1).js内核：处理交互
+    	2).渲染引擎：xml,html,css,image
+ 	四大主流浏览器内核分别为Trident/IE、Gecko/FireFox、Presto/Opera和Webkit/Chrome和Safari。
+	
+4、通过什么方式可以让ie9以下的版本支持页面的html5标签
+ 	1.引用谷歌的HTML5.js文件
+	<!--[if lt IE9]>
+    	<script type="text/JavaScript" src="http://html5shiv.googlecode.com/svn/trunk/Html5.js"></script>
+    	<![endif]-->
+	将以上代码放到head标签区间
+	
+	2.自己写JS搞定。
+	<script type="text/javascript"> 
+   		(function() {
+     		if (!0) return;
+     			var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+     			var i= e.length;
+     			while (i--){
+         			document.createElement(e[i])
+     			} 
+		})() 
+	/script>
+
+	不管你用上面哪中方式，请记得在CSS中进行如下定义，目的是让这些标签成为块状元素
+	/*html5*/
+	article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+
+5、请描述javascript ，以及javascript的组成
+	JavaScript 是互联网上最流行的脚本语言，这门语言可用于 HTML 和 web，更可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备。
+	三个组成部分：
+		核心（ECMAScript）
+		文档对象模型（DOM）
+		浏览器对象模型（BOM）
+
+6、说说你对this对象的理解
+	this可以绑定到：全局对象,自己定义的对象,用构造函数生成的对象,通过call或者apply更改绑定的对象
+	1.在js里直接使用this,this指向window
+	2.使用了new操作符实例化的对象的this指向的是object实例
+	3.call和apply将this指针指向方法的第一个参数
+ 
+
+7、说说你对json的理解 
+ 	和xml一样json也是基于纯文本的数据格式。由于json天生是为javaScript准备的，因此json的数据格式非常简单，您可以用json传输一个简单的string,number,boolean也可以传输一个数组，或者一个复杂的object对象。
+	json的基本结构是使用“{}”来包住对象，该对象包含键和值以“：”分隔，键值对之间以“，”分界，字符串要被包在双引号（""）中，并且对象的键名字始终都是一个字符串，属性值可以使任何json支持的数据类型，包括字符串、其他对象类型、数字以及布尔类型(true或者false)、一个指定的空值和数组
+
+8、xhr进行数据交互有哪几种状态，以及状态码是多少
+	0 - (未初始化)还没有调用send()方法
+	1 - (载入)已调用send()方法，正在发送请求
+	2 - (载入完成)send()方法执行完成，
+	3 - (交互)正在解析响应内容
+	4 - (完成)响应内容解析完成，可以在客户端调用了
+	---> 0 ---------------------XMLHttpRequest对象还没有完成初始化
+    	---> 1 ---------------------XMLHttpRequest对象开始发送请求
+   	---> 2 ---------------------XMLHttpRequest对象的请求发送完成
+    	---> 3 ---------------------XMLHttpRequest对象开始读取服务器的响应
+    	---> 4 ---------------------XMLHttpRequest对象读取服务器响应结束
+	
+    	服务端返回的状态
+    	404
+    	200 成功
+
+9、添加 删除 替换 插入到某个节点的原生 写法
+	 appendChild removeChild replaceChild insertBefore
+
+10、一个网站中多个网页面之间的通信，通过什么方式实现。
+	通过调用cookie sessionstorge localstorge等本地存储方式
+	route  #cantai
+
+11、webpack 压缩一个js文件的命令
+	webpack-p	
+
+
+12、在所有nodejs环境都配置ok的情况下，通过什么命令能直接生成vue cli项目  
+	npm install --global vue-cli
+
+13、vuejs中改变数组索引值无效，描述其原因及解决办法
+	
+
+
+14、vuejs或angularjs里刷新页面，出现大括号的解决办法
+	解决方法
+	1.angular加ng-bind ，但是每个都加都很麻烦  vue加v-text或v-bind
+	2.angular加ng-cloak  vue加v-cloak
+
+15、描述angularjs里ng-include的作用？
+	ng-include 指令用于包含外部的 HTML 文件。包含的内容将作为指定元素的子节点。ng-include 属性的值可以是一个表达式，返回一个文件名。默认情况下，包含的文件需要包含在同一个域名下。
+
+
+机试题
+
+1、写一方法获取非行内样式，且需做兼容
+    
+ 
+
+2、写一方法，对包含对象的数组去重，如
+   [
+	{a:1 },{b:2},{c:3},{b:2},{d:4},{c:3}
+
+    ]
+
+3、写一正则，把 "get-elements-by-class-name"去除"-" 并改成驼峰写法
+
+    
+
+4、vuejs,实现一个父子组件间的通信的页面
+
+
+
+5、angularjs，实现一个通过工厂依赖注入的页面
+
+
+
+
+
+

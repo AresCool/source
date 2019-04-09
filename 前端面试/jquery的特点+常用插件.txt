@@ -1,0 +1,16 @@
+jq的优点：选择器很丰富
+缺点：逻辑性不强，插件太杂，靠事件驱动，不像vue靠数据驱动
+
+校验插件：jquery.validate.js
+上传插件：jquery.ajaxuploadfile.js
+图表插件：echarts.js / zrender.js(canvas插件)
+加密插件：aes.js/md5.js(不可逆)/pad-zeropadding.js
+存储插件：store.js
+富编辑器：xheditor.js
+表格插件：bsgrid.js/datatable.js
+字符统计: charcount.js
+图片裁剪:jquery.cropper.min.js
+分页插件：jquery.pagination.js
+时间日历：jquery.timepicker.js
+树型列表：jquery.ztree.min.js / jquery.treeview.js
+预览插件：jquery.uploadPreview.js

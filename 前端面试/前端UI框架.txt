@@ -1,0 +1,12 @@
+淘宝的SUI：固定化东西，不能大改
+
+jQuery Mobile缺点：在手机端性能不是很好
+
+区别：	SUI 扁平化设计 
+	jQuery mobile 立体化设计
+
+PC端和平板端：bootstrap
+
+WeUI：微信团队自己开发自己用的UI
+
+Frozen UI 腾讯
