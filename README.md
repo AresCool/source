@@ -17,7 +17,7 @@
 
 > 每个分区包含的内容：  
 
->| :happy::happy::happy: | :happy::happy::happy: | :happy::happy::happy: | :happy::happy::happy: | :happy::happy::happy: | :happy::happy::happy: |
+>| :happy::happy::smile: | :happy::happy::happy: | :happy::happy::happy: | :happy::happy::happy: | :happy::happy::happy: | :happy::happy::happy: |
 >| :-------------------: | :-------------------: | :-------------------: | :-------------------: | :-------------------: | :-------------------: |
 >|      *学习笔记*       |        *源码*         |       *电子书*        |      *视频资源*       |       *面试题*        |       *骚操作*        |
 
