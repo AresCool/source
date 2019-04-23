@@ -14,12 +14,8 @@
 
 
 
+------
 
-> 每个分区包含的内容：  
-
->| :happy::happy::smile: | :happy::happy::happy: | :happy::happy::happy: | :happy::happy::happy: | :happy::happy::happy: | :happy::happy::happy: |
->| :-------------------: | :-------------------: | :-------------------: | :-------------------: | :-------------------: | :-------------------: |
->|      *学习笔记*       |        *源码*         |       *电子书*        |      *视频资源*       |       *面试题*        |       *骚操作*        |
 
 
 
@@ -27,41 +23,60 @@
 
 ##  :fountain_pen:大前端  
 
-|  :happy:   | :happy: | :happy:  |  :happy:   | :happy:  | :happy:  |
+|   :smile:    |  :kissing_heart:  |  :heart_eyes:  |   :laughing:   |  :grin:   | :yum:  |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
 | *学习笔记* | *源码*  | *电子书* | *视频资源* | *面试题* | *骚操作* |
 
+------
 ## :football:后端  
-|  :happy:   | :happy: | :happy:  |  :happy:   | :happy:  | :happy:  |
+| :kissing_closed_eyes: | :smiley: |  :kissing_smiling_eyes:  |   :sunglasses:   | :heartpulse: | :sparkles: |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
 | *学习笔记* | *源码*  | *电子书* | *视频资源* | *面试题* | *骚操作* |
 
+------
 
 ## :computer:操作系统  
 
-|  :happy:   | :happy: | :happy:  |  :happy:   | :happy:  | :happy:  |
+| :collision: |  :satisfied:  |  :heart_eyes:  |   :laughing:   |  :grin:   | :yum:  |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
 | *学习笔记* | *源码*  | *电子书* | *视频资源* | *面试题* | *骚操作* |
 
+------
 ## :cloud:网络  
-|  :happy:   | :happy: | :happy:  |  :happy:   | :happy:  | :happy:  |
+|   :smile:    |  :kissing_heart:  |  :heart_eyes:  |   :laughing:   | :sparkling_heart: | :sparkles: |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
 | *学习笔记* | *源码*  | *电子书* | *视频资源* | *面试题* | *骚操作* |
 
-
+------
 ## :desktop_computer:数据库  
-|  :happy:   | :happy: | :happy:  |  :happy:   | :happy:  | :happy:  |
+|   :smile:    |  :kissing_heart:  |  :cupid:  |   :laughing:   |  :grin:   | :yum:  |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
 | *学习笔记* | *源码*  | *电子书* | *视频资源* | *面试题* | *骚操作* |
 
-
+------
 ## :hammer:工具资源  
 
-
+------
 
 ## :memo:骚操作   
 
 
+
+
+
+
+
+------
+
+
+
+
+
+​    
+
+   
+
+  
 
 
 
