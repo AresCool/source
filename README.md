@@ -25,7 +25,7 @@
 
 |   :smile:    |  :kissing_heart:  |  :heart_eyes:  |   :laughing:   |  :grin:   | :yum:  |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
-| [*学习笔记*] | *源码*  | *电子书* | *视频资源* | [*面试题*](<https://github.com/xunyegege/source/tree/master/%E9%9D%A2%E8%AF%95%E9%A2%98%E8%B5%84%E6%BA%90/%E5%A4%A7%E5%89%8D%E7%AB%AF>) | *骚操作* |
+| [*学习笔记*] | *源码*  | *电子书* | [*视频资源*](<https://github.com/xunyegege/source/blob/master/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/%E5%89%8D%E7%AB%AF.md>) | [*面试题*](<https://github.com/xunyegege/source/tree/master/%E9%9D%A2%E8%AF%95%E9%A2%98%E8%B5%84%E6%BA%90/%E5%A4%A7%E5%89%8D%E7%AB%AF>) | *骚操作* |
 
 ------
 ## :football:后端    
@@ -34,21 +34,21 @@
 
 | :kissing_closed_eyes: | :smiley: |  :kissing_smiling_eyes:  |   :sunglasses:   | :heartpulse: | :sparkles: |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
-| *学习笔记* | *源码*  | *电子书* | *视频资源* | [*面试题*](<https://github.com/xunyegege/source/tree/master/%E9%9D%A2%E8%AF%95%E9%A2%98%E8%B5%84%E6%BA%90/java>) | *骚操作* |
+| *学习笔记* | *源码*  | *电子书* | [*视频资源*](<https://github.com/xunyegege/source/blob/master/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/java.md>) | [*面试题*](<https://github.com/xunyegege/source/tree/master/%E9%9D%A2%E8%AF%95%E9%A2%98%E8%B5%84%E6%BA%90/java>) | *骚操作* |
 
 ------
  > python
 
 | :kissing_closed_eyes: | :smiley: |  :kissing_smiling_eyes:  |   :sunglasses:   | :heartpulse: | :sparkles: |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
-| *学习笔记* | *源码*  | *电子书* | *视频资源* | [*面试题*] | *骚操作* |
+| *学习笔记* | [*源码*](<https://github.com/xunyegege/source/tree/master/Python3%E7%88%AC%E8%99%AB%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99%E4%BB%A3%E7%A0%81>) | *电子书* | [*视频资源*](<https://github.com/xunyegege/source/blob/master/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/python.md>) | [*面试题*] | *骚操作* |
 
 ------
 > golang
 
 | :kissing_closed_eyes: | :smiley: |  :kissing_smiling_eyes:  |   :sunglasses:   | :heartpulse: | :sparkles: |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
-| *学习笔记* | *源码*  | *电子书* | *视频资源* | [*面试题*]| *骚操作* |
+| *学习笔记* | *源码*  | *电子书* | [*视频资源*](<https://github.com/xunyegege/source/blob/master/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/golang.md>) | [*面试题*]| *骚操作* |
 
 ------
 
@@ -56,19 +56,19 @@
 
 | :collision: |  :satisfied:  |  :heart_eyes:  |   :laughing:   |  :grin:   | :yum:  |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
-| [*学习笔记*]() | *源码*  | *电子书* | *视频资源* | *面试题* | *骚操作* |
+| [*学习笔记*](<https://github.com/xunyegege/source/tree/master/Operating%20System>) | *源码*  | *电子书* | [*视频资源*](<https://github.com/xunyegege/source/blob/master/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md>) | *面试题* | *骚操作* |
 
 ------
 ## :cloud:网络  
 |   :smile:    |  :kissing_heart:  |  :heart_eyes:  |   :laughing:   | :sparkling_heart: | :sparkles: |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
-| *学习笔记* | *源码*  | *电子书* | *视频资源* | *面试题* | *骚操作* |
+| *学习笔记* | *源码*  | *电子书* | [*视频资源*](<https://github.com/xunyegege/source/blob/master/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/%E7%BD%91%E7%BB%9C.md>) | *面试题* | *骚操作* |
 
 ------
 ## :desktop_computer:数据库  
 |   :smile:    |  :kissing_heart:  |  :cupid:  |   :laughing:   |  :grin:   | :yum:  |
 | :--------: | :-----: | :------: | :--------: | :------: | :------: |
-| *学习笔记* | *源码*  | *电子书* | *视频资源* | *面试题* | *骚操作* |
+| *学习笔记* | *源码*  | *电子书* | [*视频资源*](<https://github.com/xunyegege/source/blob/master/%E8%A7%86%E9%A2%91%E8%B5%84%E6%BA%90/%E6%95%B0%E6%8D%AE%E5%BA%93.md>) | *面试题* | *骚操作* |
 
 ------
 ## :hammer:工具资源  
