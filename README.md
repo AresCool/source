@@ -10,7 +10,7 @@
 
 |      大前端      |     后端     |   操作系统   |   网络    |        数据库        |  工具资源  | 杂技骚操作 |
 | :--------------: | :----------: | :----------: | :-------: | :------------------: | :--------: | :--------: |
-| [:fountain_pen:](#:fountain_pen:大前端 )​ | [:football:](#:football:后端) | [:computer:](#:computer:操作系统) | [:cloud:](#:cloud:网络)​ | [:desktop_computer:](#:desktop_computer:数据库) | [:hammer:](#:hammer:工具资源) |  [:memo:](#:memo:骚操作)  |
+| [:fountain_pen:](#:fountain_pen:-大前端 )​ | [:football:](#:football:后端) | [:computer:](#:computer:操作系统) | [:cloud:](#:cloud:网络)​ | [:desktop_computer:](#:desktop_computer:数据库) | [:hammer:](#:hammer:工具资源) |  [:memo:](#:memo:骚操作)  |
 
 
 
