@@ -28,7 +28,7 @@
 >
 >这里为大家整理了慕课网已经完结了的收费课程。  
 >
->链接:https://pan.baidu.com/s/1j0GMpSzx7PzdwwhaiZj6dg  密码:afmv> 
+>链接:https://pan.baidu.com/s/1j0GMpSzx7PzdwwhaiZj6dg  密码:afmv
 >
 >
 >
